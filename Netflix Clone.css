@@ -1,0 +1,470 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: "Noto Sans", sans-serif;
+}
+header {
+    height: 41.35rem;
+    width: 98vw;
+    z-index: -2;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+/* #black_shadow_up {
+    position: absolute;
+    height: 1rem;
+    width: 100vw;
+    box-shadow: 10rem 10rem 5rem black;
+    z-index: 10;
+} */
+header #main_back img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.4;
+}
+#main_back #nav_bar {
+    height: 6rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-color: rgba(0, 0, 0,0.1);
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+#nav_bar .logo svg {
+    top: 2rem;
+    left: 2rem;
+    color:rgb(226, 8, 16);
+    fill: currentColor;
+    height: 5rem;
+    width: 10rem;
+    z-index: 1;
+    box-sizing: border-box;
+    margin-left: 10rem;
+} 
+/* /////////////////////////////////////////////////////////////////////// */
+.lang_sign {
+    display: flex;
+    justify-content: space-between;
+    width: 13.6rem;
+    height: 2.5rem;
+    margin-right: 10rem;
+}
+.nav_lang {
+    /* appearance: none; */
+    height: 2.3rem;
+    width: 4.5rem;
+    margin-right: 3rem;
+    /* z-index: 2345; */
+    /* position: absolute; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+#select_lang {
+    /* text-decoration: none; */
+    appearance: none;
+    /* box-sizing: border-box; */
+    height: 2.3rem;
+    width: 7.9rem;
+    /* border: 0.2rem solid black; */
+    border-radius: 0.33rem;
+    font-weight: 600;
+    font-size: 0.92rem;
+    margin: 0;
+    padding-left: 1.9rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.translate {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    position: absolute;
+    /* top: 2.45rem;
+    right: 22.1rem; */
+    padding: 0.66rem;
+}
+.nav_lang .fa-solid {
+    color: white;
+    position: absolute;
+    font-size: 0.7rem;
+    right: 16.8rem;
+    top: 2.55rem;
+}
+
+/* ///////////////////////////////////////////////////////// */
+.lang_sign .sign button{
+    text-decoration: none;
+    background-color: rgba(229,9,20);
+    color: white;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    height: 2.34rem;
+    width: 4.5rem;
+    /* margin-right: 11rem; */
+    /* margin-left: 1.5rem; */
+    padding: 0.5rem 0.2rem;
+}
+/* /////////////////////////////////////////////////////////// */
+#main_back .tv_shows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family: "Noto Sans", sans-serif;
+    top: 11rem;
+    
+}
+#main_back .tv_shows p {
+    color: white;
+    
+}
+.tv_shows #un-mov {
+    font-size: 2.77rem;
+    font-weight: 900;
+    line-height: 0;
+}
+.tv_shows #wa-any {
+    font-size: 1.5rem;
+    line-height: 0;
+    font-weight: 450;
+}
+.tv_shows #re-to-wat {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+.email_started {
+    display: flex;
+    position: relative;
+    top: 11.5rem;
+    flex-direction: row;
+    justify-content: center;
+}
+.email_started .email_input {
+    margin-right: 0.7rem;
+}
+.email_started .email_input input {
+    border: 0.05rem rgba(255, 255, 255,0.3) solid;
+    border-radius: 0.3rem;
+    background-color: rgba(29, 28, 28,0.6);
+    height: 3rem;
+    width: 23rem;
+    font-size: 1rem;
+}
+::placeholder {
+    color: rgba(255, 255, 255,0.7);
+    font-weight: 500;
+    padding-left: 1rem;
+}
+.email_started .get_started button {
+    background-color: rgb(226, 8, 16);
+    border: none;
+    border-radius: 0.3rem;
+    height: 3rem;
+    width: 13rem;
+    color: white;
+    font-size: 1.3rem;
+}
+.email_started .get_started button i {
+    padding-left: 1rem;
+    font-size: 0.94rem;
+}
+/* /////////////////////////////////////////////// */
+
+#br_1 {
+    height: 0.53rem;
+    width: 100vw;
+    background-color: rgb(41, 41, 41);
+}
+.first_main {
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem 4rem 6rem 1rem;
+}
+.first_main .enjoy_TV {
+    position: relative;
+    color: white;
+    width: 30rem;
+    margin-left: 3rem;
+    font-family: "Noto Sans", sans-serif;
+    padding-right: 0;
+}
+.first_main .enjoy_TV #en-tv {
+    font-size: 2.85rem;
+    font-weight: 900;
+    line-height: 0;
+}
+.first_main .enjoy_TV #wa-tv {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+.first_main .tv_playstation {
+    margin-right: 4rem;
+    padding-left: 0;
+}
+.first_main .tv_playstation video {
+    height: 13rem;
+}
+.first_main .tv_playstation img {
+    position: absolute;
+    height: 23.6rem;
+    top: 46.55rem;
+    right: 7.5rem;
+}
+/* ///////////////////////////////////////////////////////////////// */
+
+#br_2 {
+    height: 0.53rem;
+    width: 100vw;
+    background-color: rgb(41, 41, 41);
+}
+.second_main {
+    display: flex;
+    height: 30rem;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 4rem 2rem 2rem;
+}
+.second_main .anim #anim-img1 {
+    height: 23.5rem;
+    margin-left: 6.5rem;
+    margin-right: 0;
+    padding-left: 0.5rem;
+}
+.second_main .anim .anim_div {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 95.65rem;
+    left: 17rem;
+    background-color: black;
+    height: 5.5rem;
+    width: 18rem;
+    border: 0.1rem solid rgba(255, 255, 255,0.6);
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+.second_main .anim .anim_div #anim-div-1 #anim-img2 {
+    margin: 0.7rem;
+    margin-left: 0.7rem;
+    height: 4.1rem;
+    width: 3.4rem;
+}
+.second_main .anim .anim_div #anim-div-2 {
+    color: white;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+}
+.anim .anim_div #anim-div-2 .str-th{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.anim .anim_div #anim-div-2 .dld-ing {
+    color: #0071eb;
+    font-size: 0.87rem;
+}
+
+.second_main .wat-off {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    position: relative;
+    color: white;
+    font-size: 1rem;
+    height: 18rem;
+    width: 34rem;
+    box-sizing: content-box;
+    margin-left: 0rem;
+    padding-left: 0;
+    padding-right: 2rem;
+    font-family: "Noto Sans", sans-serif;
+    /* line-height: 2rem; */
+    /* padding-right: 0; */
+}
+.second_main .wat-off #dld-wat-off {
+    font-size: 2.7rem;
+    font-weight: 900;
+    line-height: 3.4rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 0;
+}
+.second_main .wat-off #save-fav {
+    line-height: 1.8rem;
+    font-size: 1.45rem;
+    font-weight: 500;
+    padding-top: 0.8rem;
+    margin-top: 0;
+}
+.act-anim img{
+    position: relative;
+    padding: 0 0 0 0;
+    right: 0rem;
+    top: 0rem;
+    height: 2.9rem;
+    width: 2.9rem;
+    z-index: 4;
+    margin-left: 0.7rem;
+}
+/* ///////////////////////////////////////////////// */
+#br_3 {
+    height: 0.53rem;
+    width: 100vw;
+    background-color: rgb(41, 41, 41);
+}
+.third_main {
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem 4rem 6rem 1rem;
+}
+.third_main .watch_str {
+    position: relative;
+    color: white;
+    width: 30rem;
+    margin-left: 3rem;
+    font-family: "Noto Sans", sans-serif;
+    padding: 2rem 2rem 2rem 2rem;
+}
+.third_main .watch_str #wat-eve {
+    font-size: 2.95rem;
+    font-weight: 900;
+    line-height: 0;
+}
+.third_main .watch_str #str-unl {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+.third_main .rajma_chawal {
+    margin-right: 7rem;
+    padding-left: 0;
+    /* box-sizing: border-box; */
+}
+.third_main .rajma_chawal video {
+    height: 11rem;
+    padding-bottom: 6rem;
+}
+.third_main .rajma_chawal img {
+    position: absolute;
+    height: 25rem;
+    top: 114.2rem;
+    right: 7.2rem;
+}
+/* /////////////////////////////////////////////////////////// */
+
+#br_4 {
+    height: 0.53rem;
+    width: 100vw;
+    background-color: rgb(41, 41, 41);
+}
+.fourth_main .children {
+    display: flex;
+    height: 25rem;
+    justify-content: space-evenly;
+    margin: 4.3rem 4rem 4.3rem 6rem;
+}
+.fourth_main .children #child_img img {
+    height: 25rem;
+    padding-left: 4rem;
+}
+.fourth_main .children #kids_prof {
+    color: white;
+    height: 25rem;
+    width: 32rem;
+    padding-right: 4rem;
+    margin-left: 0;
+    padding-left: 0;
+}
+.fourth_main .children #kids_prof .create-prof {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.fourth_main .children #kids_prof .send-child {
+    font-size: 1.35rem;
+    letter-spacing: 0.9;
+    font-weight: 500;
+}
+/* //////////////////////////////////////////////////////////////// */
+#br_5 {
+    height: 0.53rem;
+    width: 100vw;
+    background-color: rgb(41, 41, 41);
+}
+footer .sixth_main {
+    margin: 4.5rem 0 5rem 0;
+}
+footer .sixth_main p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    font-weight: 300;
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 1.4rem;
+}
+footer .sixth_main p a {
+    color: rgba(255, 255, 255, 0.85);
+}
+footer .sixth_main .anchors {
+    display: grid;
+    width: 75vw;
+    margin: auto;
+    font-size: 0.83rem;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 0.95rem;
+    column-gap: 1rem;
+}
+footer .sixth_main .anchors a {
+    color: rgba(255, 255, 255, 0.7);
+}
+footer .sixth_main .lang-again {
+    /* display: none; */
+    width: 75vw;
+    margin: auto;
+    margin-top: 1.4rem;
+}
+footer .sixth_main .lang-again select {
+    appearance: none;
+    padding: 0.45rem 2.3rem 0.45rem 1.8rem;
+    background-color: rgba(29, 28, 28,0.6);
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+}
+.Net-India {
+    color: rgba(255, 255, 255, 0.8);
+    width: 75vw;
+    margin: auto;
+    font-size: 0.85rem;
+    margin-top: 1.6rem;
+    font-weight: 300;
+}
+/* --------------------------------------------------------------------------- */
+.lang-again .arrow_clone {
+    color: white;
+    position: relative;
+    font-size: 0.7rem;
+    right: 1.6rem;
+    bottom: 0.18rem;
+}
+
+/* ------------------------------------------------------------------------------ */
